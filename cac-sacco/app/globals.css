@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0b2b3a;
+  --navy-deep: #071c26;
+  --teal: #0f7a6c;
+  --teal-dark: #0b5c52;
+  --teal-soft: #e6f4f1;
+  --coral: #e07a45;
+  --coral-dark: #c46230;
+  --gold: #c9a227;
+  --cream: #f7f3ec;
+  --sand: #eee6d8;
+  --ink: #14242e;
+  --muted: #5c6d76;
+  --line: rgba(11, 43, 58, 0.12);
+  --background: #f7f3ec;
+  --foreground: #14242e;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-teal: var(--teal);
+  --color-teal-dark: var(--teal-dark);
+  --color-teal-soft: var(--teal-soft);
+  --color-coral: var(--coral);
+  --color-coral-dark: var(--coral-dark);
+  --color-gold: var(--gold);
+  --color-cream: var(--cream);
+  --color-sand: var(--sand);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-plus-jakarta);
+  --font-display: var(--font-fraunces);
+}
+
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+  letter-spacing: -0.03em;
+}
+
+::selection {
+  background: #cde8e2;
+  color: var(--navy);
+}
+
+.grain {
+  background-image: radial-gradient(rgba(11, 43, 58, 0.06) 0.6px, transparent 0.6px);
+  background-size: 7px 7px;
+}
