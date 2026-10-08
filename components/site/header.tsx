@@ -25,9 +25,9 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-navy/8 bg-cream/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <Link href="/" onClick={() => setOpen(false)}>
-          <Logo />
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-2.5 sm:px-6">
+        <Link href="/" onClick={() => setOpen(false)} className="shrink-0">
+          <Logo priority />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">

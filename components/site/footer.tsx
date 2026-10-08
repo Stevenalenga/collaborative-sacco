@@ -36,7 +36,7 @@ export function SiteFooter() {
     <footer className="mt-auto bg-navy text-white">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4">
         <div>
-          <Logo light />
+          <Logo light size="lg" />
           <p className="mt-4 max-w-xs text-sm leading-6 text-white/70">{org.description}</p>
           <p className="mt-4 text-xs text-white/50">
             An initiative of {org.parent}, powered by {org.founder}.

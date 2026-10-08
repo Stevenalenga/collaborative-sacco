@@ -7,7 +7,6 @@ This is a **frontend-only** Next.js app. Forms, login, and the member portal use
 ## Run locally
 
 ```bash
-cd cac-sacco
 npm install
 npm run dev
 ```

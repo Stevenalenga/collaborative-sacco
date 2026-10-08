@@ -19,6 +19,10 @@ export const metadata: Metadata = {
     template: `%s · ${org.name}`,
   },
   description: org.description,
+  icons: {
+    icon: "/sacco-logo.webp",
+    apple: "/sacco-logo.webp",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -59,8 +59,11 @@ export function PortalShell({ children }: { children: ReactNode }) {
 
   if (!ready || !authed) {
     return (
-      <div className="grid min-h-screen place-items-center bg-cream text-muted">
-        Opening member portal…
+      <div className="grid min-h-screen place-items-center bg-cream px-6 text-muted">
+        <div className="text-center">
+          <Logo />
+          <p className="mt-4 text-sm">Opening member portal…</p>
+        </div>
       </div>
     );
   }
@@ -73,8 +76,8 @@ export function PortalShell({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-[#eef3f1] pb-20 lg:pb-0">
       <aside className="fixed inset-y-0 left-0 hidden w-64 border-r border-navy/8 bg-navy p-5 text-white lg:flex lg:flex-col">
-        <Link href="/">
-          <Logo light />
+        <Link href="/" className="block">
+          <Logo light size="lg" />
         </Link>
         <p className="mt-6 text-xs text-white/50">
           {demoMember.name}
@@ -111,12 +114,17 @@ export function PortalShell({ children }: { children: ReactNode }) {
       </aside>
 
       <div className="lg:pl-64">
-        <header className="sticky top-0 z-30 flex items-center justify-between border-b border-navy/8 bg-[#eef3f1]/90 px-4 py-3 backdrop-blur lg:px-8">
-          <div>
-            <p className="text-xs text-muted">Collaborative SACCO · demo portal</p>
-            <p className="font-semibold text-navy">Membership: {demoMember.status}</p>
+        <header className="sticky top-0 z-30 flex items-center justify-between gap-3 border-b border-navy/8 bg-[#eef3f1]/90 px-4 py-2.5 backdrop-blur lg:px-8">
+          <div className="flex min-w-0 items-center gap-3">
+            <Link href="/portal" className="shrink-0 lg:hidden">
+              <Logo size="sm" />
+            </Link>
+            <div className="min-w-0">
+              <p className="truncate text-xs text-muted">Member portal</p>
+              <p className="font-semibold text-navy">Membership: {demoMember.status}</p>
+            </div>
           </div>
-          <Link href="/" className="text-sm font-medium text-teal">
+          <Link href="/" className="shrink-0 text-sm font-medium text-teal">
             Public site
           </Link>
         </header>
