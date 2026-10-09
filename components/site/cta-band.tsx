@@ -13,7 +13,7 @@ export function CtaBand() {
         <p className="mt-4 max-w-xl text-white/80">{org.tagline} Join Collaborative SACCO as a member, centre, or sector partner.</p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href="/join" className={buttonVariants({ variant: "coral", size: "lg" })}>
-            Join CAC SACCO
+            Join Collaborative SACCO
           </Link>
           <Link href="/contact" className={buttonVariants({ variant: "light", size: "lg" })}>
             Talk to us

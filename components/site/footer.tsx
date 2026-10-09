@@ -38,9 +38,6 @@ export function SiteFooter() {
         <div>
           <Logo light size="lg" />
           <p className="mt-4 max-w-xs text-sm leading-6 text-white/70">{org.description}</p>
-          <p className="mt-4 text-xs text-white/50">
-            An initiative of {org.parent}, powered by {org.founder}.
-          </p>
         </div>
         {columns.map((col) => (
           <div key={col.title}>

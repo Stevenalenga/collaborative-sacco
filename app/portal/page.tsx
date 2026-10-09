@@ -70,7 +70,7 @@ export default function PortalHomePage() {
           </ul>
         </article>
         <article className="rounded-3xl bg-navy p-6 text-white shadow-sm">
-          <p className="text-xs uppercase tracking-wide text-white/50">CAC Wallet</p>
+          <p className="text-xs uppercase tracking-wide text-white/50">Member wallet</p>
           <p className="font-display mt-2 text-3xl">{formatKes(m.totals.wallet)}</p>
           <p className="mt-2 text-sm text-white/70">Available balance for SACCO payments and transfers (demo).</p>
           <Link href="/portal/wallet" className={`${buttonVariants({ variant: "coral", size: "sm" })} mt-6`}>

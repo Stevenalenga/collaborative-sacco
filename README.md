@@ -1,6 +1,6 @@
 # Collaborative SACCO
 
-Frontend website for **Collaborative Action for Childcare Savings & Cooperative Society** — a financial cooperative for childcare workers, centres, and entrepreneurs.
+Frontend website for **Collaborative SACCO** — a financial cooperative for childcare workers, centres, and entrepreneurs.
 
 This is a **frontend-only** Next.js app. Forms, login, and the member portal use demo data. There is no backend, database, or live M-Pesa.
 
@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Demo member login
 
-- Member number: `CAC-000245`
+- Member number: `CS-000245`
 - Password: `demo123`
 
 ## What’s included

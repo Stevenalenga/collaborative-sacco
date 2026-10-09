@@ -1,14 +1,12 @@
 export const org = {
   name: "Collaborative SACCO",
-  shortName: "CAC SACCO",
-  legalName: "Collaborative Action for Childcare Savings & Cooperative Society",
+  shortName: "Collaborative SACCO",
+  legalName: "Collaborative SACCO",
   tagline: "Save. Grow. Thrive. Together.",
   heroLine: "Building Financial Security for the Childcare Sector",
   description:
     "A digital financial cooperative designed for childcare workers, caregivers, centres, and entrepreneurs — savings, affordable credit, and financial literacy in one place.",
-  parent: "Collaborative Action for Childcare",
-  founder: "Uthabiti Africa",
-  email: "sacco@uthabitiafrica.org",
+  email: "info@collaborativesacco.co.ke",
   phone: "+254 714 262 626",
   whatsapp: "+254714262626",
   hours: "Monday – Friday, 8:00am – 5:00pm",
@@ -17,10 +15,10 @@ export const org = {
 };
 
 export const stats = [
-  { value: "2,500+", label: "Members in the network" },
+  { value: "2,500+", label: "Active members" },
   { value: "KES 185M", label: "Member savings mobilised" },
   { value: "KES 96M", label: "Loans to the sector" },
-  { value: "11,000+", label: "Women in childcare reached" },
+  { value: "100%", label: "Member-owned cooperative" },
 ];
 
 export const pillars = [
@@ -47,7 +45,7 @@ export const whyPoints = [
   "Loan products for workers, entrepreneurs, and centres",
   "Digital member services you can use from a phone",
   "Transparent, cooperative financial management",
-  "Financial education through CAC Financial Academy",
+  "Financial education through the Financial Academy",
   "Community-driven governance and shared ownership",
 ];
 
@@ -210,7 +208,7 @@ export const membershipBenefits = [
   "Share ownership and annual dividend participation",
   "Digital statements, loan tracking, and M-Pesa payments",
   "Guarantor support within the childcare community",
-  "Free access to CAC Financial Academy",
+  "Free access to the Financial Academy",
   "A voice in cooperative governance",
 ];
 
@@ -330,7 +328,7 @@ export const governance = [
 export const demoMember = {
   name: "Jane Achieng",
   firstName: "Jane",
-  memberNo: "CAC-000245",
+  memberNo: "CS-000245",
   status: "Active",
   kyc: "Verified" as const,
   phone: "0712 345 678",
@@ -377,11 +375,11 @@ export const demoMember = {
     },
   ],
   guarantors: [
-    { name: "Mary Wanjiku", memberNo: "CAC-000118", amount: 80_000, status: "Accepted" },
-    { name: "Samuel Otieno", memberNo: "CAC-000087", amount: 70_000, status: "Accepted" },
+    { name: "Mary Wanjiku", memberNo: "CS-000118", amount: 80_000, status: "Accepted" },
+    { name: "Samuel Otieno", memberNo: "CS-000087", amount: 70_000, status: "Accepted" },
   ],
   guaranteeing: [
-    { name: "Faith Njeri", memberNo: "CAC-000301", amount: 40_000, status: "Active" },
+    { name: "Faith Njeri", memberNo: "CS-000301", amount: 40_000, status: "Active" },
   ],
   dividends: [
     { year: 2026, shares: 25_000, rate: "10%", amount: 2_500 },
@@ -391,6 +389,6 @@ export const demoMember = {
 };
 
 export const demoCredentials = {
-  memberNo: "CAC-000245",
+  memberNo: "CS-000245",
   password: "demo123",
 };

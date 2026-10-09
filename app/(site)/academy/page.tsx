@@ -9,7 +9,7 @@ export default function AcademyPage() {
   return (
     <>
       <PageHero
-        kicker="CAC Financial Academy"
+        kicker="Financial Academy"
         title="Financial literacy for the childcare community"
         body="Short, practical lessons on saving, debt, childcare businesses, and creditworthiness — the difference between a generic SACCO and one built for this sector."
       />

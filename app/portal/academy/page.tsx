@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: "Academy" };
 export default function PortalAcademyPage() {
   return (
     <div className="mx-auto max-w-4xl">
-      <h1 className="font-display text-3xl text-navy">CAC Financial Academy</h1>
+      <h1 className="font-display text-3xl text-navy">Financial Academy</h1>
       <p className="mt-2 text-muted">Courses, quizzes, and certificates will unlock here for members.</p>
       <div className="mt-8 grid gap-3 sm:grid-cols-2">
         {academyCourses.map((course) => (

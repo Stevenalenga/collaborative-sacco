@@ -1,4 +1,4 @@
-export const AUTH_KEY = "cac-sacco-demo-auth";
+export const AUTH_KEY = "collaborative-sacco-demo-auth";
 
 export type DemoSession = {
   memberNo: string;

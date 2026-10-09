@@ -15,7 +15,7 @@ export default function HomePage() {
         <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 py-16 sm:px-6 sm:py-24 lg:grid-cols-2">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/60">
-              {org.parent} · {org.founder}
+              Collaborative SACCO
             </p>
             <h1 className="font-display mt-4 text-4xl leading-[1.1] sm:text-6xl">{org.heroLine}</h1>
             <p className="mt-5 max-w-xl text-lg leading-8 text-white/75">
@@ -23,7 +23,7 @@ export default function HomePage() {
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/join" className={buttonVariants({ variant: "coral", size: "lg" })}>
-                Join CAC SACCO
+                Join Collaborative SACCO
               </Link>
               <Link href="/login" className={buttonVariants({ variant: "light", size: "lg" })}>
                 Member login
@@ -55,7 +55,7 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
-        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-teal">Why CAC SACCO?</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-teal">Why Collaborative SACCO?</p>
         <h2 className="font-display mt-3 max-w-2xl text-3xl text-navy sm:text-4xl">
           A cooperative built around the realities of childcare work
         </h2>
@@ -144,7 +144,7 @@ export default function HomePage() {
           ))}
         </div>
         <Link href="/academy" className={`${buttonVariants({ variant: "outline" })} mt-8`}>
-          Visit CAC Financial Academy
+          Visit the Financial Academy
         </Link>
       </section>
 

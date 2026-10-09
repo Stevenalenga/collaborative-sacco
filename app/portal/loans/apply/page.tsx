@@ -104,11 +104,11 @@ export default function ApplyLoanPage() {
         <div className="mt-6 grid gap-4">
           <div>
             <Label htmlFor="g1">Guarantor 1 member number</Label>
-            <Input id="g1" required value={g1} onChange={(e) => setG1(e.target.value)} placeholder="CAC-000118" />
+            <Input id="g1" required value={g1} onChange={(e) => setG1(e.target.value)} placeholder="CS-000118" />
           </div>
           <div>
             <Label htmlFor="g2">Guarantor 2 member number</Label>
-            <Input id="g2" value={g2} onChange={(e) => setG2(e.target.value)} placeholder="CAC-000087" />
+            <Input id="g2" value={g2} onChange={(e) => setG2(e.target.value)} placeholder="CS-000087" />
           </div>
         </div>
       ) : null}

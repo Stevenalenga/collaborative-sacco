@@ -22,7 +22,7 @@ export default function WalletPage() {
 
   return (
     <div className="mx-auto max-w-xl">
-      <h1 className="font-display text-3xl text-navy">CAC Wallet</h1>
+      <h1 className="font-display text-3xl text-navy">Member wallet</h1>
       <p className="mt-2 text-muted">M-Pesa STK Push, C2B, and B2C will live here. This screen is UI only.</p>
 
       <article className="mt-6 rounded-3xl bg-navy p-6 text-white">

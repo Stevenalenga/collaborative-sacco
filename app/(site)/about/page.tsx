@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { CtaBand } from "@/components/site/cta-band";
 import { PageHero } from "@/components/site/page-hero";
-import { governance, org } from "@/lib/data";
+import { governance } from "@/lib/data";
 
 export const metadata: Metadata = { title: "About us" };
 
@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        kicker="About CAC SACCO"
+        kicker="About Collaborative SACCO"
         title="A cooperative financial home for the childcare sector"
         body="Collaborative SACCO exists so caregivers, workers, and centres can save, borrow, and grow together — with products designed around care work, not generic banking."
       />
@@ -18,9 +18,9 @@ export default function AboutPage() {
         <div className="grid gap-10 lg:grid-cols-2">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-teal">Who we are</p>
-            <h2 className="font-display mt-3 text-3xl text-navy">Born from Collaborative Action for Childcare</h2>
+            <h2 className="font-display mt-3 text-3xl text-navy">A member-owned cooperative for the childcare sector</h2>
             <p className="mt-4 leading-7 text-muted">
-              {org.parent} is a pan-African platform convened by {org.founder} to accelerate quality, affordable childcare. Collaborative SACCO is the financial inclusion arm of that work — a savings and credit model tailored to childcare and domestic workers, micro-entrepreneurs, and centres.
+              Collaborative SACCO is a savings and credit cooperative built for caregivers, childcare workers, centres, and entrepreneurs. Members save together, access affordable credit, and share in the cooperative’s performance.
             </p>
             <p className="mt-4 leading-7 text-muted">
               The cooperative is member-owned. Members buy shares, save regularly, guarantee one another, and share in the SACCO’s performance through dividends and affordable credit.
